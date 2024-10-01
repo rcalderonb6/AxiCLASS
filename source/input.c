@@ -6365,6 +6365,16 @@ int input_read_parameters_primordial(struct file_content * pfc,
     class_read_double("custom8",ppm->custom8);
     class_read_double("custom9",ppm->custom9);
     class_read_double("custom10",ppm->custom10);
+    class_read_double("custom11",ppm->custom11);
+    class_read_double("custom12",ppm->custom12);
+    class_read_double("custom13",ppm->custom13);
+    class_read_double("custom14",ppm->custom14);
+    class_read_double("custom15",ppm->custom15);
+    class_read_double("custom16",ppm->custom16);
+    class_read_double("custom17",ppm->custom17);
+    class_read_double("custom18",ppm->custom18);
+    class_read_double("custom19",ppm->custom19);
+    class_read_double("custom20",ppm->custom20);
   }
 
   /* Final tests */
@@ -7851,6 +7861,16 @@ int input_default_params(struct background *pba,
   ppm->custom8=0.;
   ppm->custom9=0.;
   ppm->custom10=0.;
+  ppm->custom11=0.;
+  ppm->custom12=0.;
+  ppm->custom13=0.;
+  ppm->custom14=0.;
+  ppm->custom15=0.;
+  ppm->custom16=0.;
+  ppm->custom17=0.;
+  ppm->custom18=0.;
+  ppm->custom19=0.;
+  ppm->custom20=0.;
 
   /**
    * Default to input_read_parameters_spectra

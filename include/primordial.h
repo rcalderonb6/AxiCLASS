@@ -197,6 +197,16 @@ struct primordial {
   double custom8;  /**< one parameter of the primordial computed in 'external_Pk' */
   double custom9;  /**< one parameter of the primordial computed in 'external_Pk' */
   double custom10; /**< one parameter of the primordial computed in 'external_Pk' */
+  double custom11;  /**< one parameter of the primordial computed in 'external_Pk' */
+  double custom12;  /**< one parameter of the primordial computed in 'external_Pk' */
+  double custom13;  /**< one parameter of the primordial computed in 'external_Pk' */
+  double custom14;  /**< one parameter of the primordial computed in 'external_Pk' */
+  double custom15;  /**< one parameter of the primordial computed in 'external_Pk' */
+  double custom16;  /**< one parameter of the primordial computed in 'external_Pk' */
+  double custom17;  /**< one parameter of the primordial computed in 'external_Pk' */
+  double custom18;  /**< one parameter of the primordial computed in 'external_Pk' */
+  double custom19;  /**< one parameter of the primordial computed in 'external_Pk' */
+  double custom20; /**< one parameter of the primordial computed in 'external_Pk' */
 
   //@}
 

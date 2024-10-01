@@ -3343,9 +3343,11 @@ int primordial_external_spectrum_init(
   }
   /* otherwise pass the list of arguments */
   else {
-    sprintf(arguments, " %g %g %g %g %g %g %g %g %g %g",
+    sprintf(arguments, " %g %g %g %g %g %g %g %g %g %g %g %g %g %g %g %g %g %g %g %g",
             ppm->custom1, ppm->custom2, ppm->custom3, ppm->custom4, ppm->custom5,
-            ppm->custom6, ppm->custom7, ppm->custom8, ppm->custom9, ppm->custom10);
+            ppm->custom6, ppm->custom7, ppm->custom8, ppm->custom9, ppm->custom10,
+            ppm->custom11, ppm->custom12, ppm->custom13, ppm->custom14, ppm->custom15,
+            ppm->custom16, ppm->custom17, ppm->custom18, ppm->custom19, ppm->custom20);
   }
   /* write the actual command in a string */
   sprintf(command_with_arguments, "%s %s", ppm->command, arguments);
